@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+#gameboard table {
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+}
+
+#gameboard table tr td {
+    background: #e0e0e0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.mine-0 {
+    background: #18b818 !important;
+}
+.mine-1 {
+    background: #ff8080 !important;
+}
+
+.mine-2 {
+    background: #e95151 !important;
+}
+
+.mine-3 {
+    background: #db0000 !important;
+}
+
+.mine-4 {
+    background: #bb0000 !important;
+}
+
+.mine-5 {
+    background: #a50000 !important;
+}
+
+.mine-6 {
+    background: #7a0000 !important;
+}
+
+.lose,
+.win {
+    display: none;
+    padding: 30px;
+    margin: 20px auto;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+.lose {
+    border: 3px solid #000;
+    color: #ff0;
+    background: #f00;
+}
+
+.win {
+    border: 3px solid #030;
+    color: #fff;
+    background: #090;
+}
+
+.mine {
+    background: #ff0 !important;
+}
+
+#minecounter {
+    border: 2px solid #ccc;
+    background: #f0f0f0;
+    font-family: 'VT323', monospace;
+    font-size: 14px;
+    width: 200px;
+    padding: 7px;
+}
+#minecounter::before {
+    content: 'Available guesses: '
+}
+
+#header {
+    display: flex;
+}
+
+.new-game {
+    padding: 10px;
+    width: 200px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link type="text/css" href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+    <div id="header">
+        <div id="minecounter"></div>
+
+        <div class="new-game">
+            <button onclick="newGame()">New Game</button>
+        </div>
+    </div>
+
+    <div id="gameboard"></div>
+
+    <div class="lose" id="lose">
+        You Lose!
+        <!-- crying face emoji -->
+        &#x1F622;
+    </div>
+
+    <div class="win" id="win">
+        YOU WIN!
+        <!-- smiling face with sunglasses emoji -->
+        &#x1F60E;
+    </div>
+
+
+
+    <script src="minesweeper.js"></script>
+</body>
+</html>
